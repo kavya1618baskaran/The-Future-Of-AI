@@ -1,0 +1,271 @@
+/* =========================================
+   THE FUTURE OF ARTIFICIAL INTELLIGENCE
+   Theme: Light Lavender and Purple
+   ========================================= */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0ff;
+    color: #292044;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 25px 8%;
+    text-align: center;
+    border-bottom: 2px solid #e4d8ff;
+}
+
+header h1 {
+    color: #805ad5;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #655b7a;
+    font-size: 16px;
+}
+
+/* Navigation */
+nav {
+    background-color: #e9e0ff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #292044;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #805ad5;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(
+        135deg,
+        #eee5ff,
+        #f8f5ff,
+        #e5edff
+    );
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h2 {
+    color: #6d45bd;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #655b7a;
+    font-size: 18px;
+    max-width: 750px;
+    margin: 0 auto 25px;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #805ad5;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #6d45bd;
+}
+
+/* General Sections */
+section {
+    padding: 60px 8%;
+}
+
+section h2 {
+    color: #6d45bd;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* About AI */
+#about {
+    background-color: #f5f0ff;
+}
+
+/* Applications */
+#applications {
+    background-color: #eee5ff;
+}
+
+/* Application Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #e4d8ff;
+    box-shadow: 0 4px 12px rgba(109, 69, 189, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(109, 69, 189, 0.15);
+}
+
+.card h3 {
+    color: #805ad5;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #655b7a;
+}
+
+/* Future Section */
+#future {
+    background-color: #f8f5ff;
+}
+
+/* Blog Preview */
+.blog-preview {
+    background-color: #eee5ff;
+    text-align: center;
+}
+
+.blog-preview p {
+    max-width: 750px;
+    margin: 0 auto 20px;
+    color: #655b7a;
+}
+
+/* Blog Article */
+.article {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border: 1px solid #e4d8ff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(109, 69, 189, 0.08);
+}
+
+.article h2 {
+    color: #6d45bd;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.article h3 {
+    color: #805ad5;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.article .intro {
+    color: #655b7a;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.article p {
+    color: #292044;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f5f0ff;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #e9e0ff;
+    color: #655b7a;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: #6d45bd;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    section {
+        padding: 40px 5%;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    .article {
+        margin: 20px 5%;
+        padding: 20px;
+    }
+}
